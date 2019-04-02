@@ -1,0 +1,13 @@
+body {
+    margin: auto;
+    margin-top: -450px;
+}
+
+.parallax-window {
+    min-height: 1250px;
+    background: transparent;
+}
+
+.js body {
+    display: none;
+}
