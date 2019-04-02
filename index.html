@@ -5,11 +5,6 @@
     <meta charset="utf-8">
     <title>Parallax scrolling</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/parallax.js"></script>
-    <script>
-        document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
-    </script>
 </head>
 
 <body>
@@ -23,9 +18,15 @@
     <div class="parallax-window" data-parallax="scroll" data-image-src="img/img8.jpg"></div>
     <div class="parallax-window" data-parallax="scroll" data-image-src="img/img9.jpg"></div>
     <div class="parallax-window" data-parallax="scroll" data-image-src="img/img10.jpg"></div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+        document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+    </script>
     <script>
         $('body').fadeIn(1000);
     </script>
+    <script src="js/parallax.js"></script>
 </body>
 
 </html>
