@@ -1,13 +1,16 @@
 body {
-    margin: auto;
-    margin-top: -450px;
+  margin: auto;
+  margin-top: -450px;
+  opacity: 1;
+  transition: 1s opacity;
+}
+
+body.fade-out {
+  opacity: 0;
+  transition: none;
 }
 
 .parallax-window {
-    min-height: 1250px;
-    background: transparent;
-}
-
-.js body {
-    display: none;
+  min-height: 1250px;
+  background: transparent;
 }

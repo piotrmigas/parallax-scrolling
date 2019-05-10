@@ -1,13 +1,17 @@
-<!doctype html>
-<html class="no-js">
-
-<head>
-    <meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Parallax scrolling</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
+  <body>
+    <script>
+      document.body.className += " fade-out";
+    </script>
     <div class="parallax-window" data-parallax="scroll" data-image-src="img/img1.jpg"></div>
     <div class="parallax-window" data-parallax="scroll" data-image-src="img/img2.jpg"></div>
     <div class="parallax-window" data-parallax="scroll" data-image-src="img/img3.jpg"></div>
@@ -18,15 +22,12 @@
     <div class="parallax-window" data-parallax="scroll" data-image-src="img/img8.jpg"></div>
     <div class="parallax-window" data-parallax="scroll" data-image-src="img/img9.jpg"></div>
     <div class="parallax-window" data-parallax="scroll" data-image-src="img/img10.jpg"></div>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script>
-        document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
-    </script>
-    <script>
-        $('body').fadeIn(1000);
-    </script>
-    <script src="js/parallax.js"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
 
+    <script src="js/parallax.js"></script>
+  </body>
 </html>
